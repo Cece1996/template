@@ -1,26 +1,20 @@
 body {
-	margin: 50px;
-	padding: 30px ;
+	margin: 0;
+	padding: 0;
 	background-image: url(images/stel.jpg) ;
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #FFFFFF;
 }
 
-h1>a {
-	font-size: 1em;
-	text-align: center;
-}
-
-h1, h2, h3 {
-	color: #CDCDE2;
-}
-
 h2 {
 	font-size: 1.8em;
 }
-
-h3 {
+.title>h2{
+	text-align: center;
+}
+h3 {;
+	font-size: 1.2em;
 }
 
 p, blockquote, ul, ol {
@@ -29,6 +23,9 @@ p, blockquote, ul, ol {
 
 p {
 	font-size: 1.3em;
+	background: #000;
+	opacity: 0.5;
+	padding: 10px;
 }
 
 blockquote {
@@ -172,6 +169,7 @@ img.right {
 	width: 700px;
 	height: 220px;
 	margin: 0 auto;
+	padding: 10px;
 }
 
 #logo h1 {
@@ -200,7 +198,7 @@ img.right {
 /* Page */
 
 #page {
-	width: 700px;
+	width: 90vw;
 	margin: 0 auto;
 }
 
@@ -274,6 +272,7 @@ img.right {
 	margin: 0;
 	padding-left: 20px;
 	list-style: none;
+	width: 100vw;
 }
 
 #menu li {
@@ -312,13 +311,12 @@ img.right {
 	width: 660px;
 	margin: 0 auto;
 	padding: 20px;
-	background: url(images/img5.gif) repeat-x;
 }
 
 #footer p {
 	margin: 0;
 	text-align: right;
-	font-size: x-small;
+	font-size: ;
 }
 
 /* Footer > Legal */
